@@ -29,3 +29,20 @@
 .header img {
   height: 2.5em;
 }
+
+.header .link {
+  text-decoration: none;
+  color: var(--primary);
+}
+
+.header .code-link {
+  background-color: var(--primary);
+  width: 2em;
+  height: 2em;
+  border-radius: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--background-color);
+  cursor: pointer;
+}
